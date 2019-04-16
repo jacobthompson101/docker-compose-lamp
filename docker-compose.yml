@@ -33,3 +33,4 @@ services:
       - '8080:80'
     volumes:
       - /sessions
+      - ~/config/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
